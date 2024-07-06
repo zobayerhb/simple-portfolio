@@ -1,0 +1,52 @@
+.fonts-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* shared css */
+.text-primary {
+  color: #fd6e0a;
+}
+.dark-2 {
+  color: #474747;
+}
+.common-btn {
+  border: none;
+  font-size: 20px;
+  border-radius: 5px;
+  background: #fd6e0a;
+  padding: 18px 35px;
+}
+
+/* Nav here */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px 200px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+nav ul li {
+  list-style-type: none;
+  margin-right: 44px;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+.nav-title {
+  font-size: 45px;
+  font-weight: 800;
+}
